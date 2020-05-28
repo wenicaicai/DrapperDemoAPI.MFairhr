@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\bin\Debug\netcoreapp3.1\CAPUsing.deps.json
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\bin\Debug\netcoreapp3.1\CAPUsing.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\bin\Debug\netcoreapp3.1\CAPUsing.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\obj\Debug\netcoreapp3.1\CAPUsing.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\obj\Debug\netcoreapp3.1\CAPUsing.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\obj\Debug\netcoreapp3.1\CAPUsing.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\obj\Debug\netcoreapp3.1\CAPUsing.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\obj\Debug\netcoreapp3.1\CAPUsing.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\CAPUsing\obj\Debug\netcoreapp3.1\CAPUsing.csproj.CoreCompileInputs.cache

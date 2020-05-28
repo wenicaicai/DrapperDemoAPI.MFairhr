@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\bin\Debug\netcoreapp3.1\AppDbContext.deps.json
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\bin\Debug\netcoreapp3.1\AppDbContext.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\obj\Debug\netcoreapp3.1\AppDbContext.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\obj\Debug\netcoreapp3.1\AppDbContext.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\obj\Debug\netcoreapp3.1\AppDbContext.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\bin\Debug\netcoreapp3.1\AppDbContext.runtimeconfig.json
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\bin\Debug\netcoreapp3.1\AppDbContext.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\bin\Debug\netcoreapp3.1\AppDbContext.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\obj\Debug\netcoreapp3.1\AppDbContext.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\obj\Debug\netcoreapp3.1\AppDbContext.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\obj\Debug\netcoreapp3.1\AppDbContext.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\AppDbContext\obj\Debug\netcoreapp3.1\AppDbContext.genruntimeconfig.cache

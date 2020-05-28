@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\bin\Debug\netcoreapp3.1\DelegateTest.deps.json
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\bin\Debug\netcoreapp3.1\DelegateTest.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\bin\Debug\netcoreapp3.1\DelegateTest.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\obj\Debug\netcoreapp3.1\DelegateTest.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\obj\Debug\netcoreapp3.1\DelegateTest.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\obj\Debug\netcoreapp3.1\DelegateTest.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\obj\Debug\netcoreapp3.1\DelegateTest.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\obj\Debug\netcoreapp3.1\DelegateTest.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\DelegateTest\obj\Debug\netcoreapp3.1\DelegateTest.csprojAssemblyReference.cache

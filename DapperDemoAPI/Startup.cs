@@ -61,6 +61,8 @@ namespace DapperDemoAPI
 
             app.UseRouting();
 
+            app.UseStaticFiles();
+
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>

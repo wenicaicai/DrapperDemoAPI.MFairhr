@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AppDbContext\AppDbContext.csproj" />
     <ProjectReference Include="..\CAPUsing\CAPUsing.csproj" />
+    <ProjectReference Include="..\DefineMiddelware\DefineMiddelware.csproj" />
   </ItemGroup>
 
 </Project>

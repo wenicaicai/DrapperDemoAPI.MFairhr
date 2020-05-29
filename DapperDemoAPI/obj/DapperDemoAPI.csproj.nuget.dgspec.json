@@ -175,6 +175,9 @@
               },
               "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\CAPUsing\\CAPUsing.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\CAPUsing\\CAPUsing.csproj"
+              },
+              "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\DefineMiddelware\\DefineMiddelware.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\DefineMiddelware\\DefineMiddelware.csproj"
               }
             }
           }
@@ -229,6 +232,75 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\DefineMiddelware\\DefineMiddelware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\DefineMiddelware\\DefineMiddelware.csproj",
+        "projectName": "DefineMiddelware",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\DefineMiddelware\\DefineMiddelware.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\DefineMiddelware\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

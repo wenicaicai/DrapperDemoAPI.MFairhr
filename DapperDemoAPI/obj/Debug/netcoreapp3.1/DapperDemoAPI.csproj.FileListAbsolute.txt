@@ -148,3 +148,5 @@ C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcor
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\DefineMiddelware.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\DefineMiddelware.pdb

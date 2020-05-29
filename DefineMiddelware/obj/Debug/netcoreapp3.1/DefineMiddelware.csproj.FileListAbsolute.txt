@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\bin\Debug\netcoreapp3.1\DefineMiddelware.deps.json
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\bin\Debug\netcoreapp3.1\DefineMiddelware.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\obj\Debug\netcoreapp3.1\DefineMiddelware.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\obj\Debug\netcoreapp3.1\DefineMiddelware.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\obj\Debug\netcoreapp3.1\DefineMiddelware.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\bin\Debug\netcoreapp3.1\DefineMiddelware.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\obj\Debug\netcoreapp3.1\DefineMiddelware.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\obj\Debug\netcoreapp3.1\DefineMiddelware.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\DefineMiddelware\obj\Debug\netcoreapp3.1\DefineMiddelware.pdb

@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace DapperDemoAPI
 {
+    /// <summary>
+    /// https://www.cnblogs.com/lonelyxmas/p/12979799.html
+    /// Nice author.
+    /// </summary>
     public class StartupMap
     {
         public void Configure(IApplicationBuilder app)

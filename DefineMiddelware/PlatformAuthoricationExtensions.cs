@@ -2,7 +2,7 @@
 
 namespace DefineMiddelware
 {
-    public static class PlatformAuthoricationMiddlewareExtensions
+    public static class PlatformAuthoricationExtensions
     {
         public static IApplicationBuilder UsePlatformAuthorication(this IApplicationBuilder builder)
         {

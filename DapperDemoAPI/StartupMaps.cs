@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using DefineMiddelware;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace DapperDemoAPI
 
         public void Configure(IApplicationBuilder app)
         {
+            app.UseRequestIP();
             app.Map($"/{programmer}", programmerLevel =>
             {
                 programmerLevel.Map($"/{programmerLevelI}", PrimaryProgrammer);
@@ -26,6 +28,10 @@ namespace DapperDemoAPI
             app.Run(async context => await context.Response.WriteAsync("Other job to make money for life..."));
         }
 
+        /// <summary>
+        /// 中间件委托
+        /// </summary>
+        /// <param name="app"></param>
         public void PrimaryProgrammer(IApplicationBuilder app)
         {
             app.Run(async context => await context.Response.WriteAsync("When you are a primary programmer,keep learning,thinking and sleeping and keep sincerely."));

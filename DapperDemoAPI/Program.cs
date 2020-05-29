@@ -20,7 +20,7 @@ namespace DapperDemoAPI
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<StartupMap>();
+                    webBuilder.UseStartup<StartupMaps>();
                 });
     }
 }

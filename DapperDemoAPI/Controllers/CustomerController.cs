@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using DapperDemoAPI.DAL;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
@@ -11,7 +7,7 @@ namespace DapperDemoAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CustomerController : ControllerBase
+    public class CustomerController : Controller
     {
         //private IConfiguration _configuration;
         private CustomerRepository _ourCustomerRepository;
@@ -21,7 +17,7 @@ namespace DapperDemoAPI.Controllers
             //_configuration = configuration;
             _ourCustomerRepository = new CustomerRepository(configuration.GetConnectionString("DefaultConnection"));
         }
-
+       
         // GET: api/Customer
         [Route("Customers/{amount}/{sort}")]
         [HttpGet]

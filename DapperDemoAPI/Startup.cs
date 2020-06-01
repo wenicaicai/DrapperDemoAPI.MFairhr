@@ -1,7 +1,9 @@
 using AppDbContext;
+using DapperDemoAPI.Filters;
 using DefineMiddelware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,6 +12,15 @@ using Microsoft.Extensions.Logging;
 
 namespace DapperDemoAPI
 {
+
+    /**
+     * 
+     * 还是跟往常一样，打开电脑使用强大的Google 和百度搜索引擎查阅相关资料，以及打开Asp.net core 3.1 的源代码进行拜读，
+     * 同时终于在我的实践及测试中对EndPoint 有了不一样的认识，
+     * 说到这里更加敬佩微软对Asp.net core 3.x 的框架中管道模型的设计。
+     *  
+     *  摘抄自：https://www.cnblogs.com/jlion/p/12423301.html Author：Jlion
+     * **/
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -30,7 +41,14 @@ namespace DapperDemoAPI
 
             services.Configure<DbConnection>(Configuration.GetSection("DbConnectionConfig"));
 
-            services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
+            services.AddMvc(options =>
+                   {
+                       options.EnableEndpointRouting = false;
+                       //全局定义异常过滤器
+                       options.Filters.Add<CustomerExceptionFilterAttribute>();
+                       //options.Filters.Add(typeof(CustomerExceptionFilterAttribute));
+                   })
+                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
 
             services.AddSwaggerGen(c =>
             {
@@ -63,6 +81,29 @@ namespace DapperDemoAPI
 
             app.UseStaticFiles();
 
+            app.UseMvcWithDefaultRoute();
+
+            //app.UseMvc();
+
+            /**
+             * 
+             * 三者（三个中间件）关系如何...
+             * 
+             * app.UseRouting();
+             * 
+             * app.UseEndpoints();//跟普通路由有什么样的关系？ 终结点路由工作原理解读
+             * 
+             * app.UseAuthorization();
+             * 
+             * **/
+
+            //不可行 2020.06.01 10:23
+            //app.UseRouting();
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllers();
+            //});
+
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
@@ -72,18 +113,11 @@ namespace DapperDemoAPI
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapGet("/", async context =>
+                {
+                    await context.Response.WriteAsync("Hello World!");
+                });
             });
-
-
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapGet("/", async context =>
-            //    {
-            //        await context.Response.WriteAsync("Hello World!");
-            //    });
-            //});endpoints.MapControllerRoute(
-
 
         }
     }

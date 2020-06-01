@@ -150,3 +150,14 @@ C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcor
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\DefineMiddelware.dll
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\DefineMiddelware.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.RazorAssemblyInfo.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.RazorAssemblyInfo.cs
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\DapperDemoAPI.Views.dll
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\DapperDemoAPI.Views.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.TagHelpers.input.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.TagHelpers.output.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.RazorCoreGenerate.cache
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.RazorTargetAssemblyInfo.cs
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.Views.pdb
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\Razor\Views\WorkMate\Index.cshtml.g.cs
+C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs

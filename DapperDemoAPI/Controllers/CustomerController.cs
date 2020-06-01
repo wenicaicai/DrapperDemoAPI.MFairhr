@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using DapperDemoAPI.DAL;
+using DapperDemoAPI.Filters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
@@ -7,6 +8,8 @@ namespace DapperDemoAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[TypeFilter(typeof(CustomerExceptionFilterAttribute))]
+    //[ServiceFilter(typeof(CustomerExceptionFilterAttribute))]
     public class CustomerController : Controller
     {
         //private IConfiguration _configuration;

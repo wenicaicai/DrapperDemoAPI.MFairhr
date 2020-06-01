@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DapperDemoAPI.Filters
 {
-    //资源过滤
+    //防止盗链 资源缓存
     public class CustomerResourceFilterAttribute : Attribute, IResourceFilter
     {
 

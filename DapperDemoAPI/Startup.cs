@@ -50,6 +50,9 @@ namespace DapperDemoAPI
                    })
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
 
+            //注册过滤器服务，使用ServiceFilter方式注册，必须进行，但又是为何呢？
+            //services.AddSingleton<CustomerExceptionFilterAttribute>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Api 404" });

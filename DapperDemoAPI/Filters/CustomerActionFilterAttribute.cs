@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DapperDemoAPI.Filters
 {
+    //操作日志
+    //参数验证
+    //权限控制
     public class CustomerActionFilterAttribute : Attribute, IActionFilter
     {
         public void OnActionExecuted(ActionExecutedContext context)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eocJJPS1y1CiTEMLittbAw1LGX76HbZbmy9j57l7MGr8aQVnqInQS04JOGDv9qE7RqNdw09v2Q1v6NyGO0Wkog==",
+  "dgSpecHash": "63YXWTRsJnrCRWq6Uq2r1T4ofAc9NgA/3sU5LoaKqm3VUMPVD5KQez7QYKUspxKmmt5rOQZwLlalfkK42u9pqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\DapperDemoAPI\\DapperDemoAPI\\DapperDemoAPI.csproj",
   "expectedPackageFiles": [
@@ -81,6 +81,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\pinyinconvertercore\\1.0.2\\pinyinconvertercore.1.0.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\rabbitmq.client\\5.1.0\\rabbitmq.client.5.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

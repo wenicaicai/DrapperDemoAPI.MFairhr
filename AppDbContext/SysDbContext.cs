@@ -11,6 +11,14 @@ namespace AppDbContext
 
         }
 
-        public DbSet<WorkMate> WorkMate { get; set; }
+        public virtual DbSet<WorkMate> WorkMate { get; set; }
+
+        public virtual DbSet<Course> Course { get; set; }
+
+        public virtual DbSet<Student> Student { get; set; }
+
+        public virtual DbSet<Teacher> Teacher { get; set; }
+
+        public virtual DbSet<Score> Score { get; set; }
     }
 }

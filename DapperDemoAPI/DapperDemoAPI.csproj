@@ -22,4 +22,8 @@
     <ProjectReference Include="..\DefineMiddelware\DefineMiddelware.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="SQL\" />
+  </ItemGroup>
+
 </Project>

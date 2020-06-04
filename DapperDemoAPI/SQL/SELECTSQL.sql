@@ -140,11 +140,43 @@
 	MAX(CASE WHEN Q.CourseName='数学' THEN CourseScore ELSE NULL END) AS '数学', 
 	MAX(CASE WHEN Q.CourseName='英语' THEN CourseScore ELSE NULL END) AS '英语'
 	FROM Score J INNER JOIN Course Q ON J.CourseId=Q.Id
-	GROUP BY J.StudentId
+	GROUP BY J.StudentId;
 
 	
 	--38.课程编号:3 且学科成绩：80+的学生信息
 	SELECT Q.StudentName,J.CourseScore FROM Score J
 	INNER JOIN Student Q ON(J.StudentId=Q.Id)
 	WHERE CourseId=3 AND CourseScore>80;
+
+	--47.查询没学过“张三”老师讲授的任一门课程的学生姓名
+		--做法：查询所有学过张三老师课程的学生
+
+	SELECT * FROM Student M WHERE Id NOT IN (
+	SELECT J.StudentId FROM Score J
+	WHERE EXISTS(
+		SELECT Q.CourseName,Q.TeacherId,Q.Id FROM Course Q
+		WHERE EXISTS(
+			SELECT NULL FROM Teacher T
+			WHERE Q.TeacherId=T.Id AND T.TeacherName='张三'
+		) AND J.CourseId = Q.Id
+	));
+
+	--48.查询两门以上不及格学科的学生信息、得分
+	SELECT J.StudentId,AVG(CourseScore)totalavg FROM Score J
+	WHERE J.CourseScore<60
+	GROUP BY StudentId
+	HAVING(COUNT(DISTINCT CourseId)>=2);
+
+	----------------------------------------------------------------------------------------------------------------
+	INSERT INTO Employee(BirthDate,FirstName,LastName,Gender,HireDate) VALUES('1953-09-02','Georgi','Facello',1,'1986-06-26');
+	INSERT INTO Employee(BirthDate,FirstName,LastName,Gender,HireDate) VALUES('1964-06-02','Bezalel','Simmel',2,'1985-11-21');
+	INSERT INTO Employee(BirthDate,FirstName,LastName,Gender,HireDate) VALUES('1955-01-21','Kyoichi','Maliniak',1,'1989-09-12');
+	INSERT INTO Employee(BirthDate,FirstName,LastName,Gender,HireDate) VALUES('1953-04-20','Anneke','Preusig',2,'1989-06-02');
+
+	--对于employees表中，输出first_name排名(按first_name升序排序)为奇数的first_name
+
+
+
+			
+
 

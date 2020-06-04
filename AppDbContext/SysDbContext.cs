@@ -20,5 +20,7 @@ namespace AppDbContext
         public virtual DbSet<Teacher> Teacher { get; set; }
 
         public virtual DbSet<Score> Score { get; set; }
+
+        public DbSet<Employee> Employee { get; set; }
     }
 }

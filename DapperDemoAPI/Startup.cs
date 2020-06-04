@@ -1,6 +1,7 @@
 using AppDbContext;
 using DapperDemoAPI.Filters;
 using DefineMiddelware;
+using Hangfire;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -58,17 +59,20 @@ namespace DapperDemoAPI
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Api 404" });
             });
 
-            services.AddCap(x =>
-            {
-                x.UseEntityFramework<SysDbContext>();
-                x.UseRabbitMQ(option =>
-                {
-                    option.HostName = "192.168.19.51";
-                    option.Port = 5672;
-                    option.UserName = "rabbitmq";
-                    option.Password = "rabbitmq";
-                });
-            });
+            services.AddHangfire(x => x.UseSqlServerStorage(sqlConnection));
+            services.AddHangfireServer();
+
+            //services.AddCap(x =>
+            //{
+            //    x.UseEntityFramework<SysDbContext>();
+            //    x.UseRabbitMQ(option =>
+            //    {
+            //        option.HostName = "192.168.19.51";
+            //        option.Port = 5672;
+            //        option.UserName = "rabbitmq";
+            //        option.Password = "rabbitmq";
+            //    });
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -106,6 +110,8 @@ namespace DapperDemoAPI
             //{
             //    endpoints.MapControllers();
             //});
+            app.UseHangfireDashboard();
+            app.UseHangfireServer();
 
             app.UseSwagger();
 

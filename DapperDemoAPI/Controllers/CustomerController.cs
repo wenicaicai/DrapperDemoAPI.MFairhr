@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace DapperDemoAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     //[TypeFilter(typeof(CustomerExceptionFilterAttribute))]
     //[ServiceFilter(typeof(CustomerExceptionFilterAttribute))]
@@ -42,7 +42,9 @@ namespace DapperDemoAPI.Controllers
         [HttpPost]
         public bool Post([FromBody] Customer ourCustomer)
         {
-            return _ourCustomerRepository.InsertCustomer(ourCustomer);
+            if(ModelState.IsValid)
+                return _ourCustomerRepository.InsertCustomer(ourCustomer);
+            return false;
         }
 
         // PUT: api/Customer/5

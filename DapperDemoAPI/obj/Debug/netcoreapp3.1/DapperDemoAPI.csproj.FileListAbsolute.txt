@@ -159,6 +159,3 @@ C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcor
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\Razor\Views\WorkMate\Index.cshtml.g.cs
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\PinYinConverterCore.dll
-C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Administrator\source\repos\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cache

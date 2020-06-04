@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Hangfire;
+using Hangfire.Server;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.International.Converters.PinYinConverter;
 
@@ -10,7 +12,7 @@ using Microsoft.International.Converters.PinYinConverter;
 
 namespace DapperDemoAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class PinYinConvertController : Controller
     {
@@ -32,6 +34,7 @@ namespace DapperDemoAPI.Controllers
                     ChineseChar chineseChar = new ChineseChar(obj);
                     var pinyin = chineseChar.Pinyins[0].ToString();
                     pinyinBuilder.Append(pinyin.Substring(0, pinyin.Length - 1));
+                    BackgroundJob.Enqueue(()=> { });
                 }
                 catch
                 {

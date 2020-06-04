@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DapperDemoAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class PublishController : ControllerBase
     {
